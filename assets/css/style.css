@@ -56,24 +56,20 @@ body  {
 		height: 125px;
 		background-color: lightgreen;
 		margin-left: -202px;
+		text-align: center;
+		font-weight: bolder;
+		font-size: 26px;
+		margin-top: 0px;
 	}	
-
-	#p {
-		width: 20px;
-		height: 20px;
-		margin-top: 10px;
-		margin-left: 10px;
-	}
-	
 
 	/*Shows wins and loses*/
 	#catagory, #catagory1 {
 		width: 100px;
 		height: 61px;
 		background-color: lightblue;
-		margin-left: -213px;
-		margin-top: -35px;
-		font-weight: bold;
+		margin-left: 36px;
+		margin-top: -161px;
+		font-size: bold;
 		text-align: center;
 	}
 
