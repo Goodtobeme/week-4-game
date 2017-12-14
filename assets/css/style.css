@@ -10,6 +10,19 @@ body  {
   margin: 0 auto;
  }
 
+ /*This is the h2 tag*/
+#collector {
+ width: 308px;
+ height: 97px;
+ color: white;
+ padding-bottom: 120px;
+ text-align: center;
+ margin-bottom: 39px;
+ margin-top: 7px;
+ padding: 11px;
+
+}
+
 /* Holds all Paragragh elements*/
 .container1 {
 	width: 548px;
@@ -19,21 +32,8 @@ body  {
 	display: inline-block;
 }
 
-	/*This is the h2 tag*/
- #collector {
- 	width: 308px;
- 	height: 97px;
- 	color: white;
- 	padding-bottom: 120px;
- 	text-align: center;
- 	margin-bottom: 39px;
- 	margin-top: 7px;
- 	padding: 11px;
-
- }
-
-/*	Crystal is assign to the header*/
- #crystal {
+/*	Collections is assign to the header*/
+ #collections {
  	width: 312px;
  	height: 50px;
  	padding-bottom: 57px;
@@ -60,7 +60,7 @@ body  {
 		font-weight: bolder;
 		font-size: 26px;
 		margin-top: 0px;
-	}	
+	}
 
 	/*Shows wins and loses*/
 	#catagory, #catagory1 {
@@ -69,7 +69,7 @@ body  {
 		background-color: lightblue;
 		margin-left: 36px;
 		margin-top: -161px;
-		font-size: bold;
+		font-size: bolder;
 		text-align: center;
 	}
 
@@ -77,36 +77,36 @@ body  {
     margin-top: -12px
 	}
 
-	/*These are the images*/ 
+	/*These are the images*/
 	img {
 		width: 85px;
 	}
+	#crystalImage0 {
+		height: 25px;
+		margin-left: -201px;
+		display: block;
+		margin-top: -65px;
+	}
+
 	#crystalImage1 {
 		height: 25px;
-		margin-left: -204px;
+		margin-left: -89px;
 		display: block;
-		margin-top: -40px;
+		margin-top: -68px;
 	}
-	
+
 	#crystalImage2 {
 		height: 25px;
-		margin-left: -96px;
+		margin-left: -195px;
 		display: block;
-		margin-top: -40px;
+		margin-top: -64px;
 	}
 
 	#crystalImage3 {
 		height: 25px;
-		margin-left: 11px;
+		margin-left: -300px;
 		display: block;
-		margin-top: -22px;
-	}
-
-	#crystalImage4 {
-		height: 25px;
-		margin-left: 120px;
-		display: block;
-		margin-top: -25px;
+		margin-top: -67px;
 	}
       /*Shows the players total score*/
   .score {
@@ -125,5 +125,3 @@ body  {
 		background-color: green;
 		margin-left: -220px;
 	}
-
-	

@@ -11,8 +11,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
   </script>
   		<!-- Shows reset and stylesheet links -->
-    
+
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 
 </head>
 
@@ -22,8 +23,8 @@
 
 	  <div class="row">
 	<!-- header and h2 -->
-	<header id="crystal">
-		<h2 id="collector">Crystals Collector!</h2>
+	<header id="collections">
+		<h2 id="collectors">Crystals Collector!</h2>
 	</header>
 	<br>
 		  <!-- Container1 that holds paragraghs -->
@@ -32,13 +33,13 @@
 	 	<div class="col-lg-6">
 
 			<p class="info">You will be given a random number at the start of the game.</p>
-			
-			 <p class="info">There are four crystals below. By ckicking on a crystal you will add a specific amount of points to your total score.</p>
-			 
+
+			 <p class="info">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
 			 <p class="info">You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
-			 
+
 			 <p class="info">The value of each crystal is hidden from you until you click on it.</p>
-			 
+
 			 <p class="info">Each time when the game starts, the game will change the values of each crystal.</p>
 	 	</div>
 	 </div>
@@ -50,7 +51,7 @@
 	 <!--  Will show score needed to achieve -->
 	 <div id="boxscore">
 	 <p>39</p>
-	</div> 
+	</div>
 	</div>
  </div>
 	 <br>
@@ -62,45 +63,47 @@
 			 <p id="catagory1">Losses</p>
 	</div>
  </div>
-	 
+
 		<br>
 		<br>
 
 	  <div class="row">
-	  
+
 	   <div class="col-sm-3">
 	   <!-- These are the images -->
-	  <div id="crystalImage1"> 
+	  <div id="crystalImage0">
 	   <button class="btn btn-default btn-lg left-button"><img src="assets/images/Capture.png"></button>
-         
+        </div>
 	 </div>
+</div>
 
 	   <div class="col-sm-3">
 
-	   <div id="crystalImage2">
+	   <div id="crystalImage1">
 	   <button class="btn btn-info btn-lg middle-button"><img src="assets/images/Capture2.png"></button>
-	   	
-	 </div>
-	
-	   <div class="col-sm-3">
 
-	   	<div id="crystalImage3">
-	   	<button class="btn btn-info btn-lg middle-right-button"><img src="assets/images/Capture3.png"></button>
-	   	
-	 	
-	 </div>
-		
-	   <div class="col-sm-3">
-
-	   <div id="crystalImage4">
-
-	   <button class="btn btn-info btn-lg right-button"><img src="assets/images/Capture4.png"></button>
-    	
-	 
-	  </div>
 	 </div>
 	</div>
-     
+
+	   <div class="col-sm-3">
+
+	   	<div id="crystalImage2">
+	   	<button class="btn btn-info btn-lg middle-right-button"><img src="assets/images/Capture3.png"></button>
+
+	 	</div>
+	 </div>
+
+	   <div class="col-sm-3">
+
+	   <div id="crystalImage3">
+
+	   <button class="btn btn-info btn-lg right-button"><img src="assets/images/Capture4.png"></button>
+
+
+	  </div>
+	 </div>
+	<!-- </div> -->
+
 
 		<br>
 		<br>
@@ -113,77 +116,18 @@
 		<br>
 		     <!-- Displays actual score -->
 	<div class="actualscore">
-		
-		</div> 
+
+		</div>
 	 </div>
     </div>
    </div>
-  </div>
+
 				<!-- JavaScript -->
    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-   <script type="text/javascript">
-    
+   <script type="text/javascript" src="assets/Javascript/game.js">
 
-   var wins = 0;
-   var losses = 0;
-   var yourTotalScore = 0;
-   var targetNumber = 39;
-
-    var = winslossesyourTotalScoretargetNumber[Math.floor(Math.random()numberOptions.length)];
-
-   $("#crystalImage1,crystalImage2,crystalImage3,crystalImage4").text(targetnumber);
-
-   var counter = 0;
-
-   	// Array with four options
-	var numberOptions = [1,10,6,4];
-		console.log("yourTotalScore");
-		// Loop that creates crystals for numberOptions
-	for (var i = 0; i < numberOptions.length; i++) {
-
-		// This iteration creates an image crystal
-		var crystalImage1 = $("<img>");
-		var crystalImage2 = $("<img>");
-		var crystalImage3 = $("<img>");
-		var crystalImage4 = $("<img>");
-	}
-
-		// Giving each crystal a class
-	crystalImage1crystalImage2crystalImage3crystalImage4.addClass("crystal-image");
-
-
-    // All crystalImage will be given a data attribute called data-crystalValue.
-    // This data attribute will be set equal to the array value.
-    	crystalImagecrystalImage2crystalImage3crystalImage4 .attr("data-crystalValue," numberOptions[i]);
-
-	
-    	$("#crystals").append(crystalImagecrystalImage2crystalImage3crystalImage4 s);
-    }
-
-    $(".image-crystal").on("click", function()) {
-
-    	// Extract the value from the data-attr
-    	var crystalValue = ($(this).attr("data-crystalvalue"));
-    	crystalValue = parseInt(crystalValue);
-
-
-    	counter ++ crystalValue;
-
-
-
-    	score("New score: " + counter);
-
-    	if (counter ===targetNumber) {
-    	  catagory("you win!");
-    	}
-
-    	else if (counter >= targetNumber) {
-    	  catagory1("You lose!!");
-    	} 
-    });
-
-    	</script>
+	</script>
 
 </body>
-</html>
+</html
