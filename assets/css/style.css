@@ -1,5 +1,5 @@
 body  {
-    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HHDM9k1Q-j3x8jx1u/videoblocks-time-travel-motion-background_ry1liyuvz_thumbnail-small01.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2PqH8I3qsS37pD5LdKwE9PCdIghF2sHxvsbwtkqGXBp5ocw-H");
     /*background-color: #F5DEB3;*/
 }
 
@@ -62,57 +62,59 @@ body  {
 		margin-top: 0px;
 	}
 
-	/*Shows wins and loses*/
-	#catagory, #catagory1 {
-		width: 100px;
-		height: 61px;
-		background-color: lightblue;
-		margin-left: 36px;
-		margin-top: -161px;
-		font-size: bolder;
-		text-align: center;
-	}
+	
+.crystals {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: -59px;
+  margin-left: -243px;
 
-	#catagory1 {
-    margin-top: -12px
-	}
+}
 
-	/*These are the images*/
-	img {
-		width: 85px;
-	}
-	#crystalImage0 {
-		height: 25px;
-		margin-left: -201px;
-		display: block;
-		margin-top: -65px;
-	}
+.crystal {
+  border: 1px solid green;
+  height: 50px;
+  width: 50px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  transition: box-shadow 2s;
 
-	#crystalImage1 {
-		height: 25px;
-		margin-left: -89px;
-		display: block;
-		margin-top: -68px;
-	}
+}
 
-	#crystalImage2 {
-		height: 25px;
-		margin-left: -195px;
-		display: block;
-		margin-top: -64px;
-	}
+.crystal:hover {
+  box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
+  padding:5px;
+  transition: box-shadow 2s;
+}
 
-	#crystalImage3 {
-		height: 25px;
-		margin-left: -300px;
-		display: block;
-		margin-top: -67px;
-	}
+#win #loses {
+  margin-left: 40px;
+}
+
+#result {
+  color: white;
+  margin-left: -165px;
+  font-size: 18px;
+  display: block;
+}
+
+#loses {
+  color: white;
+  margin-top: -176px;
+  margin-left: 163px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
       /*Shows the players total score*/
   .score {
   	width: 210px;
   	height: 31px;
-  	margin-left: -218px;
+  	margin-left: -452px;
   	background-color: green;
   	display: inline-block;
   	color: white;
@@ -123,5 +125,6 @@ body  {
 		width: 210px;
 		height: 125px;
 		background-color: green;
-		margin-left: -220px;
+		margin-left: -448px;
+		margin-top: -25px;
 	}
