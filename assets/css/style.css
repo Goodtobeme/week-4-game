@@ -82,16 +82,10 @@ body  {
 
 }
 
-.crystal:hover {
-  box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
-  padding:5px;
-  transition: box-shadow 2s;
-}
-
 #result {
   color: white;
   margin-left: -165px;
-  font-size: 18px;
+  font-size: 22px;
   display: block;
 }
 

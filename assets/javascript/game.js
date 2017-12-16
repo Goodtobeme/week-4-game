@@ -10,7 +10,7 @@
 
   $(".crystals").empty();
 
-  var images = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXuZ1yes4PXx6EP7yzdancWNyCkHV49X4yzfHxMnuGCXhSiX2o",
+  var images = ["https://i.pinimg.com/736x/dc/a9/80/dca9802355d239acfbe03c2c93ba45ee--obsidian-stone-gems-and-minerals.jpg",
    "https://www.soulfulcrystals.co.uk/wp-content/uploads/2013/11/a-crystal-healing.jpg",
    "https://i.pinimg.com/564x/65/4d/e3/654de3967d826661e1da2f907dab2a98--gems-and-minerals-crystals-minerals.jpg",
    "http://solawakening.com/wp-content/uploads/2011/12/fantasy-crystal-field.jpg"];
