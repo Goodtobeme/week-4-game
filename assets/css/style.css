@@ -88,10 +88,6 @@ body  {
   transition: box-shadow 2s;
 }
 
-#win #loses {
-  margin-left: 40px;
-}
-
 #result {
   color: white;
   margin-left: -165px;
@@ -99,10 +95,14 @@ body  {
   display: block;
 }
 
-#loses {
-  color: white;
-  margin-top: -176px;
-  margin-left: 163px;
+#show {
+	margin-top: -161px;
+	margin-left: 200px;
+	font-size: 20px;
+}
+
+#win,#loses {
+	color: white;
 }
 
 img {
@@ -121,10 +121,10 @@ img {
   	margin-top: 49px;
   }
 	/*This is the actual score*/
-	.actualscore {
+	/*.actualscore {
 		width: 210px;
 		height: 125px;
 		background-color: green;
 		margin-left: -448px;
 		margin-top: -25px;
-	}
+	}*/
