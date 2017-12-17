@@ -1,6 +1,6 @@
 body  {
-    background-image: url("https://i.pinimg.com/736x/6e/59/f2/6e59f2fde1b34fc9398c4923ec3df77c--diamond-wallpaper-white-wallpaper.jpg");
-    /*background-color: #F5DEB3;*/
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSVBfFyizaa3n7S1ImDRBWeK8uJD78THjo7TLfi-ofKONUvxAd");
+   /* background-color: brown;*/
 }
 
 
@@ -83,7 +83,7 @@ body  {
 }
 
 #result {
-  color: black;
+  color: white;
   margin-left: -165px;
   font-size: 22px;
   display: block;
@@ -96,7 +96,7 @@ body  {
 }
 
 #win,#loses {
-	color: black;
+	color: white;
 }
 
 img {
