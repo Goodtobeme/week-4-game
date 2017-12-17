@@ -83,7 +83,7 @@ body  {
 }
 
 #result {
-  color: white;
+  color: black;
   margin-left: -165px;
   font-size: 22px;
   display: block;
@@ -96,7 +96,7 @@ body  {
 }
 
 #win,#loses {
-	color: white;
+	color: black;
 }
 
 img {
